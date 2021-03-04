@@ -1,3 +1,24 @@
-#test{
-    color: red;
+.nav-wrapper {
+  background-color: white;
+  color: black;
 }
+
+nav {
+  min-height: 120px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 12pt;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#prog-logo {
+  height: auto;
+  width: 125px;
+  margin-left: 62%;
+  margin-top: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */
