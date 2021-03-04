@@ -83,4 +83,11 @@ nav {
   margin-top: 0%;
 }
 
+#container-div {
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: -5%;
+}
+
 /*# sourceMappingURL=style.css.map */
