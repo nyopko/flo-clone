@@ -27,7 +27,6 @@ nav {
 }
 
 #flo-gif {
-  position: absolute;
   margin-top: -10%;
   z-index: -5;
   height: 120vh;
