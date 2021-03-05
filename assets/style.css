@@ -114,6 +114,10 @@ nav {
   margin-top: -5%;
 }
 
+#mobile-footer {
+  display: none;
+}
+
 @media (max-width: 415px) {
   #prog-logo {
     margin-left: 100%;
@@ -163,9 +167,20 @@ nav {
 
   .img-container {
     width: 175px;
-    background-color: red;
     margin-left: 15%;
     padding-right: 100px;
+  }
+
+  #mobile-footer {
+    display: block;
+    height: 122px;
+    width: 900px;
+  }
+
+  #website-plug {
+    width: 900px;
+    text-align: left;
+    margin-left: 15%;
   }
 }
 
