@@ -132,6 +132,21 @@ nav{
     display: none;
 }
 
+// Text and Header Content for Subpages
+
+.header-column{
+    margin-top: 15%;
+    margin-left: 0%!important;
+}
+
+.header-text{
+    text-align: center;
+}
+
+.text-column{
+    margin-top: 15%;
+}
+
 
 // Mobile 
 
@@ -198,6 +213,17 @@ html{
     width: 900px;
     text-align: left;
     margin-left: 15%;
+}
+
+
+/// Sub Page Content
+
+.header-column{
+    margin-top: 35%;
+}
+
+.blank-column{
+    display: none;
 }
 
 
