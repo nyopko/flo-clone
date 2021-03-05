@@ -27,16 +27,17 @@ nav{
     margin-top: 10px;
     margin-left: -60%;
     padding: 20px;
-    font-size: .85em;
-    font-weight: 400;
-    letter-spacing: 3px;
     font-family: Open Sans;
     font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-style: normal;
     letter-spacing: 1px;
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mobile-nav-link{
+    font-family: Open Sans;
+    color: black;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 #prog-logo{
