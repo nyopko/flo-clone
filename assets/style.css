@@ -70,6 +70,10 @@ nav {
   margin-bottom: -8% !important;
 }
 
+#mobile-container-div {
+  display: none;
+}
+
 .home-img-card-col:hover .overlay {
   opacity: 0.7;
 }
@@ -135,6 +139,33 @@ nav {
 
   html {
     background-color: white;
+  }
+
+  #container-div {
+    display: none;
+  }
+
+  #mobile-container-div {
+    display: block;
+    width: 850px;
+  }
+
+  .mobile-home-img-card-col {
+    padding: 100px;
+    width: 175px;
+    float: left;
+  }
+
+  .mobile-card-img {
+    height: 275px;
+    width: 275px;
+  }
+
+  .img-container {
+    width: 175px;
+    background-color: red;
+    margin-left: 15%;
+    padding-right: 10px;
   }
 }
 
