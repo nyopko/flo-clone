@@ -5,11 +5,11 @@ html {
 .nav-wrapper {
   background-color: white;
   color: black;
-  box-shadow: none !important;
 }
 
 nav {
   min-height: 120px;
+  box-shadow: none !important;
 }
 
 .material-icons {
