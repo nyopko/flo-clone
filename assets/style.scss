@@ -56,6 +56,10 @@ nav{
     width: 100%;
 }
 
+#mobile-flo{
+    display: none;
+}
+
 // Home Image Cards
 
 .card-img{
@@ -118,4 +122,36 @@ nav{
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: -5%;
+}
+
+
+// Mobile 
+
+@media (max-width: 767px) {
+
+#prog-logo{
+    margin-left: 100%;
+    height: auto;
+    width: 180px;
+    }
+nav{
+    background-color: white;
+    min-height: 122px;
+}
+
+#flo-gif{
+    display:none;
+}
+
+#mobile-flo{
+    display: block;
+    height: 1200px;
+    width: auto;
+    margin-top: 25%;
+}
+
+html{
+    background-color: white;
+}
+
 }
