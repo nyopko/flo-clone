@@ -3,13 +3,17 @@ html {
 }
 
 .nav-wrapper {
-  background-color: red;
+  background-color: white;
   color: black;
   box-shadow: none !important;
 }
 
 nav {
   min-height: 120px;
+}
+
+.material-icons {
+  color: black;
 }
 
 .nav-link {
