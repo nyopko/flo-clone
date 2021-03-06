@@ -36,7 +36,7 @@ nav {
   letter-spacing: 1px;
 }
 
-#home-prog-logo {
+#fs-prog-logo {
   height: auto;
   width: 125px;
   margin-left: 62%;
@@ -176,6 +176,12 @@ nav {
     height: 290px !important;
   }
 
+  #home-hamburger {
+    font-size: 80px;
+    margin-left: 40%;
+    margin-top: 90%;
+  }
+
   #flo-gif {
     display: none;
   }
@@ -228,6 +234,13 @@ nav {
     width: 900px;
     text-align: left;
     margin-left: 28%;
+  }
+
+  .subpage-hamburger {
+    color: black;
+    font-size: 40px !important;
+    margin-top: 35%;
+    margin-left: 5%;
   }
 
   .header-column {
