@@ -148,10 +148,11 @@ nav {
 }
 
 @media (max-width: 415px) {
-  #prog-logo {
-    margin-left: 180%;
+  #home-prog-logo {
+    margin-left: 80%;
+    margin-top: 13%;
     height: auto;
-    width: 180px;
+    width: 300px;
   }
 
   .subpage-logo {
@@ -170,6 +171,11 @@ nav {
     height: 122px !important;
   }
 
+  .home-nav {
+    background-color: white;
+    height: 290px !important;
+  }
+
   #flo-gif {
     display: none;
   }
@@ -178,7 +184,7 @@ nav {
     display: block;
     height: 1968px;
     width: 892px;
-    margin-top: 25%;
+    margin-top: 40%;
   }
 
   #container-div {
@@ -197,14 +203,19 @@ nav {
   }
 
   .mobile-card-img {
-    height: 275px;
-    width: 275px;
+    height: 305px;
+    width: 305px;
   }
 
   .img-container {
     width: 175px;
-    margin-left: 15%;
+    margin-left: 30%;
     padding-right: 100px;
+  }
+
+  #firefighter-card, #writing-card {
+    position: absolute;
+    left: 480px;
   }
 
   #mobile-footer {
