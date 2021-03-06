@@ -59,6 +59,10 @@ nav {
   height: 90px;
 }
 
+.sidenav-overlay {
+  height: 100%;
+}
+
 #fs-prog-logo {
   height: auto;
   width: 125px;
