@@ -36,7 +36,7 @@ nav {
   letter-spacing: 1px;
 }
 
-#prog-logo {
+#home-prog-logo {
   height: auto;
   width: 125px;
   margin-left: 62%;
@@ -227,7 +227,7 @@ nav {
   #website-plug {
     width: 900px;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 28%;
   }
 
   .header-column {
