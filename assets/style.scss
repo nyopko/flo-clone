@@ -1,11 +1,18 @@
-// Background Color
+// Whole Site Styles
 
 html{
     background-color:#FAFAFA;
 }
 
-// Navbar Stylings
+strong {
+    font-weight: 700!important;
+}
 
+.material-icons{
+    color: black;
+}
+
+// Navbar Stylings
 
 .nav-wrapper{
     background-color: white;
@@ -16,10 +23,6 @@ html{
 nav{
     min-height: 120px;
     box-shadow: none!important;
-}
-
-.material-icons{
-    color: black;
 }
 
 .nav-link{
@@ -41,6 +44,8 @@ nav{
     letter-spacing: 1px;
 }
 
+// Progressive ninety6 logo
+
 #fs-prog-logo{
     height: auto;
     width: 125px;
@@ -48,7 +53,7 @@ nav{
     margin-top: 15%;
   }
 
-//  Flo Gif
+// Flo Gif
 
 #flo-gif{
     margin-top: -10%;
@@ -175,33 +180,36 @@ nav{
     margin-right: 6px;
 }
 
-strong {
-    font-weight: 700!important;
-}
-
-// Contact Page Specific
+// Contact Page Specific Styles
 
 #contact-text{
     margin-left: 10%;
 }
 
 
-// Mobile 
+// Mobile Styles
 
 @media (max-width: 415px) {
 
-#home-prog-logo{
+// Progressive ninety6 Logo for Homepage
+
+#fs-prog-logo{
     margin-left: 80%;
     margin-top: 13%;
     height: auto;
     width: 300px;
-    }
+}
+
+// Progressive ninety6 Logo for Subpages
+
 .subpage-logo{
     height: auto;
     width: 125px;
     margin-left: 80%;
     margin-top: 13%;
 }
+
+// Navbar
 
 nav{
     background-color: white;
@@ -217,12 +225,15 @@ nav{
     height: 290px!important;
 }
 
+// Navebar Hamburger Icon
+
 #home-hamburger{
     font-size: 80px;
     margin-left: 40%;
     margin-top: 90%;
 }
 
+// Home Page Flo Gif
 
 #flo-gif{
     display:none;
@@ -235,9 +246,7 @@ nav{
     margin-top: 40%;
 }
 
-html{
-    // background-color: white;
-}
+// Home Page Cards
 
 #container-div{
     display: none;
@@ -271,6 +280,8 @@ html{
     
 }
 
+// Footer Links
+
 #mobile-footer{
     display: block;
     height: 122px;
@@ -284,7 +295,7 @@ html{
 }
 
 
-/// Sub Page Content
+/// Subpage-Specific Content
 
 .subpage-hamburger{
     color: black;
@@ -314,6 +325,8 @@ html{
 }
 
 }
+
+// Styles for Big Screens 
 
 @media (min-width: 1410px) {
     .overlay{

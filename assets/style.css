@@ -2,6 +2,14 @@ html {
   background-color: #FAFAFA;
 }
 
+strong {
+  font-weight: 700 !important;
+}
+
+.material-icons {
+  color: black;
+}
+
 .nav-wrapper {
   background-color: white;
   color: black;
@@ -11,10 +19,6 @@ html {
 nav {
   min-height: 120px;
   box-shadow: none !important;
-}
-
-.material-icons {
-  color: black;
 }
 
 .nav-link {
@@ -159,16 +163,12 @@ nav {
   margin-right: 6px;
 }
 
-strong {
-  font-weight: 700 !important;
-}
-
 #contact-text {
   margin-left: 10%;
 }
 
 @media (max-width: 415px) {
-  #home-prog-logo {
+  #fs-prog-logo {
     margin-left: 80%;
     margin-top: 13%;
     height: auto;
