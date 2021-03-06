@@ -22,6 +22,7 @@ nav {
   margin-top: 10px;
   margin-left: -60%;
   padding: 20px;
+  font-weight: bolder !important;
   font-family: Open Sans;
   font-size: 12px;
   letter-spacing: 1px;
@@ -142,6 +143,10 @@ nav {
   font-style: normal;
 }
 
+.subpage-icon {
+  display: none;
+}
+
 @media (max-width: 415px) {
   #prog-logo {
     margin-left: 100%;
@@ -213,6 +218,15 @@ nav {
 
   .header-text {
     text-align: left;
+  }
+
+  .subpage-icon {
+    display: block;
+    text-align: right;
+  }
+
+  .footer-links-row {
+    display: none;
   }
 }
 
