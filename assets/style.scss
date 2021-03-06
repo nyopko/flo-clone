@@ -179,13 +179,13 @@ nav{
 
 #mobile-flo{
     display: block;
-    height: 1268px;
-    width: 812px;
+    height: 1968px;
+    width: 892px;
     margin-top: 25%;
 }
 
 html{
-    background-color: white;
+    // background-color: white;
 }
 
 #container-div{
@@ -236,6 +236,8 @@ html{
 .blank-column{
     display: none;
 }
-
+.header-text{
+    text-align: left;
+}
 
 }
