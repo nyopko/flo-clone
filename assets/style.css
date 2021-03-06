@@ -199,10 +199,10 @@ nav {
   }
 
   .subpage-logo {
-    height: auto;
-    width: 125px;
-    margin-left: 80%;
-    margin-top: 13%;
+    height: auto !important;
+    width: 125px !important;
+    margin-left: 80% !important;
+    margin-top: 13% !important;
   }
 
   nav {
