@@ -40,6 +40,25 @@ nav {
   letter-spacing: 1px;
 }
 
+.home-sidebar {
+  width: 80%;
+}
+
+.home-links {
+  color: black !important;
+  font-size: 35px !important;
+  margin-right: 100% !important;
+  margin-top: 5%;
+  padding: 0 10% !important;
+  font-style: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.home-list {
+  height: 90px;
+}
+
 #fs-prog-logo {
   height: auto;
   width: 125px;
