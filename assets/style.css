@@ -185,6 +185,11 @@ nav {
   margin-right: 6px;
 }
 
+.indented-list {
+  list-style-position: outside !important;
+  text-indent: -1em;
+}
+
 #contact-text {
   margin-left: 10%;
 }

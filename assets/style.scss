@@ -199,9 +199,16 @@ nav{
     display: none;
 }
 
+// Lists
+
 .bulleted-list::before{
     content: "+";
     margin-right: 6px;
+}
+
+.indented-list{
+    list-style-position: outside!important;
+    text-indent: -1em;
 }
 
 // Contact Page Specific Styles
