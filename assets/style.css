@@ -154,7 +154,6 @@ nav {
 .header-text {
   text-align: center;
   font-family: Open Sans;
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -1px;
   font-size: 45px;
@@ -279,6 +278,10 @@ nav {
     margin-left: 28%;
   }
 
+  .blank-column {
+    display: none;
+  }
+
   .subpage-hamburger {
     color: black;
     font-size: 40px !important;
@@ -287,15 +290,24 @@ nav {
   }
 
   .header-column {
-    margin-top: 35%;
-  }
-
-  .blank-column {
-    display: none;
+    margin-top: 20%;
   }
 
   .header-text {
-    text-align: left;
+    text-align: center;
+  }
+
+  .content-text {
+    margin-top: -20%;
+    margin-left: 2%;
+  }
+
+  .text-column {
+    width: 85%;
+  }
+
+  #contact-text {
+    margin-left: 5%;
   }
 
   .subpage-icon {
