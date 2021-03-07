@@ -4,6 +4,10 @@ html{
     background-color:#FAFAFA;
 }
 
+a{
+    color: #F66B04;
+}
+
 strong {
     font-weight: 700!important;
 }
@@ -209,6 +213,18 @@ nav{
 .indented-list{
     list-style-position: outside!important;
     text-indent: -1em;
+}
+
+.opening-text{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+// Resume Link
+
+#resume-link{
+    text-align: center;
+    margin-top: 2%;
 }
 
 // Contact Page Specific Styles
